@@ -11,15 +11,15 @@
 	color: #2e2f42;
 	font-weight: 500;
 }
-.link-portfolio {
+.inside-links {
 	text-decoration: none;
 	color: #2e2f42;
 	font-weight: 500;
 }
-.link-portfolio:focus {
+.inside-links:focus {
 	color: #404bbf;
 }
-.link-portfolio:hover {
+.inside-links:hover {
 	color: #404bbf;
 }
 .contacts {
@@ -30,9 +30,9 @@
 	list-style-type: none;
 }
 .header-logo-link {
-	font-family: "Raleway";
+	font-family: "Raleway", sans-serif;
 	font-weight: 700;
-	font-size: 18;
+	font-size: 18px;
 	line-height: 1.17;
 	letter-spacing: 0.03em;
 	color: #4d5ae5;
@@ -40,10 +40,10 @@
 	text-decoration: none;
 }
 .logo-studio {
-	font-family: "Raleway";
+	font-family: "Raleway", sans-serif;
 	font-weight: 700;
-	font-size: 18;
-	line-height: 1.166;
+	font-size: 18px;
+	line-height: 1.17;
 	letter-spacing: 0.03em;
 	color: #2e2f42;
 }
@@ -94,7 +94,7 @@ button:focus {
 }
 .description-title {
 	font-weight: 500;
-	font-size: 20;
+	font-size: 20px;
 	line-height: 1.2;
 	letter-spacing: 0.02em;
 	color: #2e2f42;
@@ -154,11 +154,13 @@ button:focus {
 }
 .footer-bar-text {
 	color: #f4f4fd;
+	line-height: 1.5;
+	letter-spacing: 0.02em;
 }
-.header-logo-link-footer {
+.logo-link-footer {
 	font-family: "Raleway", sans-serif;
 	font-weight: 700;
-	font-size: 18;
+	font-size: 18px;
 	line-height: 1.17;
 	letter-spacing: 0.03em;
 	color: #4d5ae5;
@@ -168,7 +170,7 @@ button:focus {
 .logo-studio-footer {
 	font-family: "Raleway", sans-serif;
 	font-weight: 700;
-	font-size: 18;
+	font-size: 18px;
 	line-height: 1.166;
 	letter-spacing: 0.03em;
 	color: #f4f4fd;
