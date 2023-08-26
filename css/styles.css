@@ -54,6 +54,11 @@ img {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
+	flex-wrap: nowrap;
+	width: 1158px;
+	margin: 0 auto;
+	padding-left: 15px;
+	padding-right: 15px;
 }
 .logo-nav {
 	align-items: center;
