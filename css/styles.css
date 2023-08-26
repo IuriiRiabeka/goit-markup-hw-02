@@ -61,11 +61,18 @@ img {
 	color: #2e2f42;
 	font-weight: 500;
 }
+.inside-links-menu {
+	display: flex;
+	gap: 40px;
+}
+.inside-links-menu:last-child {
+	margin-right: 0;
+}
 .inside-links {
 	text-decoration: none;
 	color: #2e2f42;
 	font-weight: 500;
-	padding-left: 40px;
+	padding: 24px 0;
 }
 .inside-links:focus {
 	color: #404bbf;
@@ -78,14 +85,16 @@ img {
 	padding-top: 24px;
 	padding-bottom: 24px;
 }
-.inside-links:last-child {
-	margin-right: 0;
-}
+
 .contacts {
 	font-style: normal;
 	display: flex;
 	list-style-type: none;
 	display: flex;
+	gap: 40px;
+}
+.contacts:last-child {
+	margin-right: 0;
 }
 .reach-us-link {
 	margin-right: 40px;
@@ -180,10 +189,9 @@ button:focus {
 	text-align: center;
 	letter-spacing: 0.02em;
 }
-.section-second-title {
-	display: none;
+.visually-hidden {
+	visibility: hidden;
 }
-
 .description-card {
 	margin-right: 24px;
 	flex-basis: calc((100% - 3 * 24px) / 4);
@@ -297,6 +305,7 @@ button:focus {
 	letter-spacing: 0.02em;
 }
 .logo-link-footer {
+	margin-bottom: 16px;
 	font-family: "Raleway", sans-serif;
 	font-weight: 700;
 	font-size: 18px;
@@ -306,7 +315,6 @@ button:focus {
 	text-transform: uppercase;
 	text-decoration: none;
 	display: inline-block;
-	margin-bottom: 16px;
 }
 .logo-studio-footer {
 	font-family: "Raleway", sans-serif;
