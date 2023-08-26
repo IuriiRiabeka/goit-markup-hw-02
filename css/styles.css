@@ -50,9 +50,15 @@ img {
 	width: calc(100% - 16px);
 	border-bottom: 1px solid #e7e9fc;
 }
+.container-in-header {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
 .logo-nav {
 	align-items: center;
 }
+
 .header-logo-link {
 	margin-right: 76px;
 }
@@ -63,7 +69,6 @@ img {
 }
 .inside-links-menu {
 	display: flex;
-	gap: 40px;
 }
 .inside-links-menu:last-child {
 	margin-right: 0;
@@ -72,6 +77,7 @@ img {
 	text-decoration: none;
 	color: #2e2f42;
 	font-weight: 500;
+	margin-right: 40px;
 	padding: 24px 0;
 }
 .inside-links:focus {
@@ -305,6 +311,7 @@ button:focus {
 	letter-spacing: 0.02em;
 }
 .logo-link-footer {
+	display: inline-block;
 	margin-bottom: 16px;
 	font-family: "Raleway", sans-serif;
 	font-weight: 700;
@@ -314,7 +321,6 @@ button:focus {
 	color: #4d5ae5;
 	text-transform: uppercase;
 	text-decoration: none;
-	display: inline-block;
 }
 .logo-studio-footer {
 	font-family: "Raleway", sans-serif;
