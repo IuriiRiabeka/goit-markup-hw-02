@@ -75,9 +75,7 @@ img {
 .inside-links-menu {
 	display: flex;
 }
-.inside-links-menu:last-child {
-	margin-right: 0;
-}
+
 .inside-links {
 	text-decoration: none;
 	color: #2e2f42;
@@ -85,16 +83,14 @@ img {
 	margin-right: 40px;
 	padding: 24px 0;
 }
+.inside-links:last-child {
+	margin-right: 0;
+}
 .inside-links:focus {
 	color: #404bbf;
 }
 .inside-links:hover {
 	color: #404bbf;
-}
-.inside-links {
-	margin-right: 40px;
-	padding-top: 24px;
-	padding-bottom: 24px;
 }
 
 .contacts {
@@ -102,13 +98,11 @@ img {
 	display: flex;
 	list-style-type: none;
 	display: flex;
-	gap: 40px;
 }
-.contacts:last-child {
-	margin-right: 0;
-}
+
 .reach-us-link {
-	margin-right: 40px;
+	margin: 0 40px 0 0;
+	padding: 0 0 0 24px;
 }
 .reach-us-link:last-child {
 	margin-right: 0;
@@ -198,10 +192,20 @@ button:focus {
 	line-height: 1.07;
 	color: #ffffff;
 	text-align: center;
+	margin: auto;
 	letter-spacing: 0.02em;
 }
 .visually-hidden {
-	visibility: hidden;
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	margin: -1px;
+	border: 0;
+	padding: 0;
+	white-space: nowrap;
+	clip-path: inset(100%);
+	clip-rect: (0 0 0 0);
+	overflow: hidden;
 }
 .description-card {
 	margin-right: 24px;
