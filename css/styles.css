@@ -32,7 +32,8 @@ img {
 	padding-left: 15px;
 	padding-right: 15px;
 }
-.container-header {
+
+.header {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
@@ -40,8 +41,6 @@ img {
 	margin: 0 auto;
 	padding-left: 15px;
 	padding-right: 15px;
-}
-.header {
 	/*-ms-flex-align: stretch;
 	flex-wrap: nowrap;
 	align-items: center;
