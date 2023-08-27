@@ -33,13 +33,7 @@ img {
 	padding-right: 15px;
 }
 .header {
-	padding-left: 8px;
-	padding-right: 8px;
-	width: calc(100% - 16px);
-	border-bottom: 1px solid #e7e9fc;
-}
-.container-header {
-	display: flex;
+	display: inline-block;
 	flex-direction: row;
 	justify-content: space-between;
 	-ms-flex-align: stretch;
@@ -47,6 +41,10 @@ img {
 	align-items: center;
 	text-align: left;
 	flex-shrink: 1;
+	padding-left: 8px;
+	padding-right: 8px;
+	width: calc(100% - 16px);
+	border-bottom: 1px solid #e7e9fc;
 }
 
 .logo-nav {
@@ -65,13 +63,17 @@ img {
 }
 
 .inside-links {
+	display: inline-block;
+	flex-direction: row;
 	text-decoration: none;
 	color: #2e2f42;
 	font-weight: 500;
+}
+.inside-links-item {
 	margin-right: 40px;
 	padding: 24px 0;
 }
-.inside-links:last-child {
+.inside-links-item:last-child {
 	margin-right: 0;
 }
 .inside-links:focus {
@@ -82,19 +84,21 @@ img {
 }
 
 .contacts {
+	display: inline-block;
 	font-style: normal;
 	list-style-type: none;
 }
-.reach-us-link {
+.contacts-list-item {
 	margin-right: 40px;
 	padding-right: 24px;
 }
-.reach-us-link:last-child {
+.contacts-list-item:last-child {
 	margin-right: 0;
 }
 
 .list {
 	list-style-type: none;
+
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
@@ -198,6 +202,7 @@ button:focus {
 	clip: rect(0 0 0 0);
 	overflow: hidden;
 }
+
 .description-card {
 	margin-right: 24px;
 	flex-basis: calc((100% - 3 * 24px) / 4);
