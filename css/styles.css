@@ -73,8 +73,7 @@ img {
 }
 .inside-links-item {
 	margin-right: 40px;
-	padding-top: 24px;
-	padding-bottom: 24px;
+	padding: 24px 0 24px 0;
 }
 .inside-links-item:last-child {
 	margin-right: 0;
@@ -317,6 +316,7 @@ button:focus {
 	font-size: 18px;
 	line-height: 1.17;
 	letter-spacing: 0.03em;
+
 	color: #4d5ae5;
 	text-transform: uppercase;
 	text-decoration: none;
