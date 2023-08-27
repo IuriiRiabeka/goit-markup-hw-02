@@ -65,11 +65,12 @@ img {
 }
 
 .inside-links {
-	/*display: block;*/
+	display: block;
 	flex-direction: row;
 	text-decoration: none;
 	color: #2e2f42;
 	font-weight: 500;
+	padding: 24px 0;
 }
 .inside-links-item {
 	display: block;
