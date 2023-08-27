@@ -27,15 +27,12 @@ img {
 	display: block;
 }
 .container {
-	display: flex;
-	flex-direction: column;
-	flex-wrap: nowrap;
 	width: 1158px;
 	margin: 0 auto;
 	padding-left: 15px;
 	padding-right: 15px;
 }
-.header {
+.container-header {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
@@ -50,17 +47,10 @@ img {
 	width: calc(100% - 16px);
 	border-bottom: 1px solid #e7e9fc;
 }
-.container-in-header {
+
+.logo-nav {
 	display: flex;
 	flex-direction: row;
-	justify-content: space-between;
-	flex-wrap: nowrap;
-	width: 1158px;
-	margin: 0 auto;
-	padding-left: 15px;
-	padding-right: 15px;
-}
-.logo-nav {
 	align-items: center;
 }
 
@@ -72,16 +62,13 @@ img {
 	color: #2e2f42;
 	font-weight: 500;
 }
-.inside-links-menu {
-	display: flex;
-}
 
 .inside-links {
 	text-decoration: none;
 	color: #2e2f42;
 	font-weight: 500;
-	margin-right: 40px;
-	padding: 24px 0;
+	gap: 40px;
+	padding: 24px 24px 24px 24px;
 }
 .inside-links:last-child {
 	margin-right: 0;
@@ -95,20 +82,16 @@ img {
 
 .contacts {
 	font-style: normal;
-	display: flex;
 	list-style-type: none;
-	display: flex;
-}
 
+	gap: 40px;
+	padding: 24px 24px 24px 24px;
+}
 .reach-us-link {
-	margin: 0 40px 0 0;
-	padding: 0 0 0 24px;
+	padding-right: 24px;
 }
 .reach-us-link:last-child {
 	margin-right: 0;
-}
-nav {
-	display: flex;
 }
 
 .list {
@@ -142,6 +125,7 @@ section {
 }
 
 .button {
+	align-content: center;
 	min-width: 169px;
 	height: 56px;
 	border: none;
@@ -154,6 +138,14 @@ section {
 	background-color: #4d5ae5;
 	color: #ffffff;
 }
+.vertical-center {
+	margin-left: 38%;
+	position: absolute;
+	top: 75%;
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+
 button:hover {
 	background-color: #404bbf;
 	color: #404bbf;
@@ -306,6 +298,9 @@ button:focus {
 	background-color: #2e2f42;
 	height: 311px;
 }
+.footer-content {
+	display: inline-block;
+}
 .logo-studio-footer {
 	font-family: "Raleway";
 	font-weight: 700;
@@ -318,6 +313,10 @@ button:focus {
 	color: #f4f4fd;
 	line-height: 1.5;
 	letter-spacing: 0.02em;
+	width: 264px;
+	height: 72px;
+	vertical-align: baseline;
+	font-stretch: 100%;
 }
 .logo-link-footer {
 	display: inline-block;
